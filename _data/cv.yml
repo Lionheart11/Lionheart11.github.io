@@ -1,0 +1,31 @@
+- 
+  nom: "Wild Code School"
+  description: "Formation intensive de 5 mois en Développement Web "
+  annee:
+    fin: "Juillet 2016"
+    debut: "Février 2016" 
+  lieu: "La Loupe 28240"
+
+- 
+  nom: "Université Jussieu Paris VII"
+  description: "DEUG LEA en Japonais"
+  annee:
+    fin: "Juin 2003"
+    debut: "Octobre 2001" 
+  lieu: "Paris 75000"
+
+- 
+  nom: "FFKAMA"
+  description: "Diplôme d'Instructeur Fédéral en Karaté"
+  annee:
+    fin: "Juin 2001"
+    debut: "Septembre 2000" 
+  lieu: "Villepinte 93420"
+
+- 
+  nom: "Lycée Léonard de Vinci"
+  description: "Baccalauréat Littéraire"
+  annee:
+    fin: "Juin 2001"
+    debut: "Septembre 2000" 
+  lieu: "Tremblay en France 93290"

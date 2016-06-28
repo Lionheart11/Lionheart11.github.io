@@ -1,0 +1,19 @@
+---
+layout: default
+title: CV
+permalink: /cv/
+---
+<h1>Apprenti Developpeur Ruby on Rails</h1>
+<p>Ruby c'est l'avenir !</p>
+{% for cv in site.data.cv %}
+<blockquote>
+    <div>
+      <h2>{{ cv.nom }}</h2>
+      <!-- {% for img in serie.imgs %}
+        <img src='{{ img }}' style="height: 100px;float:right;">
+      {% endfor %} -->
+    </div>
+    <p>{{ cv.description }}</p>
+    <b>Période de {{ cv.annee.debut }} à {{ cv.annee.fin }}</b>
+</blockquote>
+{% endfor %}
