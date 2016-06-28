@@ -1,0 +1,20 @@
+---
+layout: default
+title: Séries
+permalink: /series/
+---
+
+<h1>Listes de séries</h1>
+<p>Ci-dessous la <abbr title="située ligne 8 à 19 dans le code">boucle</abbr> qui pour chaque série va afficher les données demandées, remarque qu'il ya a une autre <abbr title="située ligne 12 à 14 dans le code">boucle</abbr> dans celle-ci pour chaque image!</b></p>
+{% for serie in site.data.series %}
+<blockquote>
+    <div>
+      <h2>{{ serie.name }}</h2>
+      {% for img in serie.imgs %}
+        <img src='{{ img }}' style="height: 100px;float:right;">
+      {% endfor %}
+    </div>
+    <p>Synopsis: {{ serie.synopsis }}</p>
+    <b>Diffusée de {{ serie.year.start }} à {{ serie.year.end }}</b>
+</blockquote>
+{% endfor %}
